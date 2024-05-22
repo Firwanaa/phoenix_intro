@@ -1,0 +1,8 @@
+<h1>Users Page</h1>
+<ul>
+	<%= for user <- @users do %> 
+	<li><%= user.id %></li>
+	<li><%= user.name %></li>
+	<li><%= user.email %></li>
+	<% end %>
+</ul>
